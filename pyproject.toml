@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pythoniaml"
+version = "0.1.0"
+description = ""
+authors = ["Eryck Santos <dev.erycksantos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+streamlit = "^1.41.1"
+matplotlib = "^3.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
